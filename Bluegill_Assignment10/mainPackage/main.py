@@ -10,4 +10,16 @@
 # Citations: 
 # Anything else that's relevant:
 
+import json
+import requests
 
+
+
+url = "https://api.weatherstack.com/current?access_key=2248de933bfdb1b2b7f831ddce40c468"
+
+
+querystring = {"query":"New Delhi"}
+
+response = requests.get(url, params=querystring)
+
+print(response.json())
