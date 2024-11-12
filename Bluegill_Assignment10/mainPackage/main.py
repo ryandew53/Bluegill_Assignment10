@@ -14,7 +14,7 @@
 
 import json
 import requests
-from utils.weather_api import WeatherClient
+from weather_apiPackage.weather_api import WeatherClient
 
 def main():
     # Enter your API key below
