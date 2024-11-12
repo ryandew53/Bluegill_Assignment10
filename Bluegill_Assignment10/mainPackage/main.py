@@ -1,5 +1,5 @@
 # Name: Ryan Dew, Kayla Wilson
-# email: dewrm@mail.uc.edu, 
+# email: dewrm@mail.uc.edu, wilso5ky@mail.uc.edu
 # Assignment Number: 10
 # Due Date:  11/14/2024
 # Course #/Section: IS4010-001
