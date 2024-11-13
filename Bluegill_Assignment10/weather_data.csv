@@ -1,2 +1,2 @@
 LOCATION,REGION,TEMPERATURE,HUMIDITY,WEATHER_DESCRIPTION,WIND_SPEED,FEELS_LIKE,CLOUD_COVER
-London,"City of London, Greater London",12,67,['Partly cloudy'],21,10,25
+Canberra,Australian Capital Territory,12,94,['Overcast'],9,12,100
