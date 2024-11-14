@@ -9,7 +9,7 @@
 # Brief Description of the assignment: This assignment is to use an API from the web to fetch data, create a dictionary with that data, print it to the terminal, and then finally save that data in a csv file.
 
 # Brief Description of what this module does: this module is the main module that will run the program from weather_api.py. It imports the weather_api.py module and runs the main function which will prompt the user to enter a location and then fetch the weather data for that location.
-# Citations: https://weatherstack.com/documentation --> API documentation for entering key, for formatting the output in the termimal and what keywords to use to use the data from the api.
+# Citations: https://weatherstack.com/documentation --> API documentation for entering key, for formatting the output in the termimal and what keywords to use to use the data from the api. https://www.geeksforgeeks.org/writing-csv-files-in-python/ --> Converting output to csv format
 # Anything else that's relevant: Used inclass assignment and module 10 slides for reference. 
 
 import json
