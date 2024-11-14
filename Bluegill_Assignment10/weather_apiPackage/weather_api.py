@@ -21,13 +21,13 @@ class WeatherClient:
     def __init__(self, api_key):
         self.api_key = api_key
         self.base_url = "https://api.weatherstack.com/current"
-    
+    # This function pulls weather data for a given location
     def fetch_weather_data(self, location):
         querystring = {"access_key": self.api_key, "query": location}
         response = requests.get(self.base_url, params=querystring)
         
         parsed_json = json.loads(response.text)
-        
+        # Check if we have "current" weather data and then structure it nicely
         if "current" in parsed_json:
             weather_data = {
                 "LOCATION": parsed_json.get("location", {}).get("name", "Unknown"),
@@ -42,7 +42,7 @@ class WeatherClient:
             return weather_data
             return None
         
-
+# This function saves the weather data to a CSV file
     def save_to_csv(self, data, filename="weather_data.csv"):
         if data:
             with open(filename, mode="w", newline="") as file:
